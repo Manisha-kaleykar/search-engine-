@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #ff6f61; /* Coral color */
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 12px;
+    border: 2px solid #ff6f61; /* Coral border */
+    margin-bottom: 15px;
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+}
+
+button[type="submit"] {
+    background-color: #032c3a; /* Sky blue button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #f4a23c; /* Darker sky blue on hover */
+}
+
+ul {
+    list-style: disc;
+    margin-left: 30px;
+}
+
+li {
+    color: #444; /* Slightly darker text color */
+    margin-bottom: 8px;
+}

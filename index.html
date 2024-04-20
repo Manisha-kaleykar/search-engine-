@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Subtitle Search Engine</title>
+    <style>
+        /* Global styles */
+        body {
+            background-color: #032c3a;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #032c3a;
+            color: #f4e3e3;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        /* Form styles */
+        .container {
+            max-width: 400px;
+            margin: 20px auto; /* Center horizontally */
+        }
+
+        input[type="text"] {
+            width: 100%; /* Full width */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+            margin-bottom: 10px; /* Add some spacing between input and button */
+        }
+
+        button[type="submit"] {
+            width: 100%; /* Full width */
+            padding: 10px;
+            background-color: #82d9e1;
+            color: #292020;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #4bc5bc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movie Subtitle Search Engine</h1>
+    </header>
+
+    <div class="container">
+        <form method="POST">
+            <input type="text" name="search_term" placeholder="Enter Movie Subtitle">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
